@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             val message = binding.mainFIELDEditText.text.toString()
             val recipientToken = binding.mainTokenEditText.text.toString()
 
-            if (title.isNotEmpty() && message.isNotEmpty()){
+            if (title.isNotEmpty() && message.isNotEmpty() && recipientToken.isNotEmpty()){
                 PushNotification(
                     NotificationData(title, message),
                     TOPIC
