@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mainTITLEEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TITLE"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/mainFIELDEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FIELD"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/mainTokenEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TOKEN"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/mainSendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"/>
+</LinearLayout>
